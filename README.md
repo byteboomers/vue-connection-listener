@@ -2,6 +2,8 @@
 
 > Vue event bus plugin listening for online/offline changes
 
+![screenshot](./assets/example.png)
+
 ## About
 
 Whenever the navigator's connection status changes a 'connection' event is emitted with a boolean payload indicating the new state (online = true, offline = false).
