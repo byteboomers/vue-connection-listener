@@ -45,7 +45,7 @@ Inside any component
 
 ```
   this.$bus.$on('connection', online => {
-    alert(online ? 'You are online :)' : 'You are offline :(')
+    alert(online ? 'You are online 😄' : 'You are offline 😞')
   });
 ```
 
