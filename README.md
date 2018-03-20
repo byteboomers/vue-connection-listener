@@ -49,6 +49,21 @@ Inside any component
   });
 ```
 
+## Notes
+
+You need to import your own event bus and then inject it as a dependency.
+
+Creating a bus could be as simple as creating a bus.js file with the following contents:
+
+```
+import Vue from 'vue';
+export default new Vue();
+```
+
+For more info:
+
+https://alligator.io/vuejs/global-event-bus/
+
 ## Powered by
 
 * Babel
