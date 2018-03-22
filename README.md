@@ -20,7 +20,7 @@ npm install --save vue-connection-listener
 
 main.js
 
-```
+```javascript
 import Vue from 'Vue';
 import bus from './bus'; // Event bus instance
 
@@ -43,7 +43,7 @@ new Vue({
 
 Inside any component
 
-```
+```javascript
   this.$bus.$on('connection', online => {
     alert(online ? 'You are online 😄' : 'You are offline 😞')
   });
