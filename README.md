@@ -18,7 +18,7 @@ npm install --save vue-connection-listener
 
 ## Setup & example
 
-App.vue
+main.js
 
 ```
 import Vue from 'Vue';
