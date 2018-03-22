@@ -55,7 +55,7 @@ You need to import your own event bus and then inject it as a dependency.
 
 Creating a bus could be as simple as creating a bus.js file with the following contents:
 
-```
+```javascript
 import Vue from 'vue';
 export default new Vue();
 ```
