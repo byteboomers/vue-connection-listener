@@ -1,7 +1,7 @@
 {
   "name": "vue-connection-listener",
   "description": "Vue event bus plugin listening for online/offline changes",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "dist/vue-connection-listener.js",
   "scripts": {
     "build": "webpack --mode production --progress"
