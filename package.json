@@ -1,15 +1,9 @@
 {
   "name": "vue-connection-listener",
-  "description": "Vue event bus plugin listening for online/offline changes",
   "version": "1.0.0",
-  "main": "dist/vue-connection-listener.js",
-  "scripts": {
-    "build": "webpack --mode production --progress"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Botre/vue-connection-listener.git"
-  },
+  "description": "Vue event bus plugin listening for online/offline changes",
+  "author": "Bjorn Krols (https://byteboomers.com)",
+  "license": "MIT",
   "keywords": [
     "vue",
     "connection",
@@ -17,8 +11,19 @@
     "online",
     "offline"
   ],
-  "author": "Bjorn Krols",
-  "license": "MIT",
+  "homepage": "https://github.com/byteboomers/vue-connection-listener#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byteboomers/vue-connection-listener.git"
+  },
+  "bugs": {
+    "url": "https://github.com/byteboomers/vue-connection-listener/issues"
+  },
+  "main": "dist/vue-connection-listener.js",
+  "scripts": {
+    "build": "webpack --mode production --progress"
+  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
