@@ -21,16 +21,16 @@ npm install --save vue-connection-listener
 main.js
 
 ```javascript
-import Vue from 'Vue';
-import bus from './bus'; // Event bus instance
+import Vue from "Vue";
+import bus from "./bus"; // Event bus instance
 
 Vue.prototype.$bus = bus; // Optional (but convenient)
 
-import VueConnectionListener from 'vue-connection-listener';
+import VueConnectionListener from "vue-connection-listener";
 const connectionListener = new VueConnectionListener(bus); // Create instance (injecting our bus)
 
 new Vue({
-  el: '#app',
+  el: "#app",
   render: h => h(App),
   created() {
     connectionListener.register();
@@ -44,9 +44,9 @@ new Vue({
 Inside any component
 
 ```javascript
-  this.$bus.$on('connection', online => {
-    alert(online ? 'You are online 😄' : 'You are offline 😞')
-  });
+this.$bus.$on("connection", online => {
+  alert(online ? "You are online 😄" : "You are offline 😞");
+});
 ```
 
 ## Notes
@@ -56,7 +56,7 @@ You need to import your own event bus and then inject it as a dependency.
 Creating a bus could be as simple as creating a bus.js file with the following contents:
 
 ```javascript
-import Vue from 'vue';
+import Vue from "vue";
 export default new Vue();
 ```
 
