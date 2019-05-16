@@ -1,6 +1,6 @@
 # vue-connection-listener
 
-> Vue event bus plugin listening for online/offline changes
+Vue event bus plugin listening for online/offline changes
 
 ![screenshot](./assets/example.png)
 
@@ -16,7 +16,7 @@ npm install --save vue-connection-listener
 
 [npm package link](https://www.npmjs.com/package/vue-connection-listener)
 
-## Setup & example
+## Usage
 
 main.js
 
@@ -63,16 +63,3 @@ export default new Vue();
 For more info:
 
 https://alligator.io/vuejs/global-event-bus/
-
-## Powered by
-
-* Babel
-* Webpack 4
-
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
-
-## Twitter
-
-[Follow me on Twitter](https://twitter.com/KrolsBjorn)
