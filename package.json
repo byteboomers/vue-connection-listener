@@ -2,7 +2,7 @@
   "name": "vue-connection-listener",
   "description": "Vue event bus plugin listening for online/offline changes",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Bjorn Krols (https://byteboomers.com)",
   "license": "MIT",
   "keywords": [
